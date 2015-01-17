@@ -1,0 +1,569 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"findK",
+				"findKey	  (Eq k) => k -> [(k, v)] -> v"
+			],
+			[
+				"und",
+				"unDigitise"
+			],
+			[
+				"num",
+				"numUniques"
+			],
+			[
+				"max",
+				"maxTail"
+			],
+			[
+				"Int",
+				"Int	(module)"
+			],
+			[
+				"data",
+				"Data"
+			],
+			[
+				"shu",
+				"shuffled"
+			],
+			[
+				"new",
+				"newUnshuffled"
+			],
+			[
+				"ran",
+				"Random"
+			],
+			[
+				"cl",
+				"Club"
+			],
+			[
+				"zip",
+				"zipWith	(a -> b -> c) -> [a] -> [b] -> [c]"
+			],
+			[
+				"div",
+				"divideByTen	None"
+			],
+			[
+				"conc",
+				"concatMap	(a -> [b]) -> [a] -> [b]"
+			],
+			[
+				"bo",
+				"Bool"
+			],
+			[
+				"put",
+				"putStrLn	String -> IO ()"
+			],
+			[
+				"str",
+				"putStrLn	String -> IO ()"
+			],
+			[
+				"my",
+				"myLength"
+			],
+			[
+				"int",
+				"Int"
+			],
+			[
+				"elem",
+				"elementAt"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"ci",
+				"circles"
+			],
+			[
+				"state",
+				"stateCmd"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"w",
+				"WIDTH"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"ga",
+				"GAME"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Euler/14.hs",
+			"settings":
+			{
+				"buffer_size": 2451,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Haskell/Haskell.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"textp",
+				"Text Pastry: Command Line"
+			],
+			[
+				"pasty",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"text pas",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ru",
+				"SublimeHaskell: Run"
+			],
+			[
+				"hask",
+				"SublimeHaskell: Build"
+			],
+			[
+				"run",
+				"SublimeHaskell: Run"
+			],
+			[
+				"inst",
+				"SublimeHaskell: Install"
+			],
+			[
+				"has",
+				"SublimeHaskell: Check"
+			],
+			[
+				"ind",
+				"Indent XML"
+			],
+			[
+				"inde",
+				"Indent XML"
+			]
+		],
+		"width": 402.0
+	},
+	"console":
+	{
+		"height": 367.0,
+		"history":
+		[
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"print( \"\\n\".join([str(a) for a in range(40)]))",
+			"print \"\\n\".join([str(a) for a in range(40)])",
+			"print \"\\n\".join([str(a) + \"\"  for a in range(40)])",
+			"print \"\\n\".join([str(a) + \"  for a in range(40)])",
+			"print \"\\n\".join([str(a) for a in range(40)])",
+			"print '\\\\n'.join([str(a) for a in range(40)])",
+			"print '\\n'.join([str(a) for a in range(40)])",
+			"'\\n'.join([str(a) for a in range(40)])",
+			"'\\n'.join(range(40))",
+			"print '\\n'.join(range(40))",
+			"print \"\\n\".join(range(40))",
+			"clear",
+			"a.split()",
+			"a",
+			"a = \"123\"",
+			"[a for a in range(10)]",
+			"1==1",
+			"1"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/M/projects/Haskell"
+	],
+	"file_history":
+	[
+		"/M/projects/Haskell/Euler/Common.hs",
+		"/M/projects/Haskell/Euler/13.hs",
+		"/M/projects/Haskell/Euler/12.hs",
+		"/M/projects/Haskell/Euler/5.hs",
+		"/M/projects/Haskell/Euler/6.hs",
+		"/M/projects/Haskell/Euler/7.hs",
+		"/M/projects/Haskell/Euler/11.hs",
+		"/M/projects/Haskell/Euler/common.hs",
+		"/C/Program Files (x86)/Privoxy/config.txt",
+		"/C/Users/John_2/AppData/Roaming/Sublime Text 3/Packages/User/SublimeHaskell.sublime-settings",
+		"/M/projects/Haskell/euler.hs",
+		"/M/projects/Haskell/baby.hs",
+		"/M/projects/Haskell/modules.hs",
+		"/M/projects/Haskell/fac.hs",
+		"/M/projects/Haskell/new.hs",
+		"/M/projects/Haskell/new2.hs",
+		"/M/projects/Haskell/cards.hs",
+		"/M/projects/Haskell/shapes.hs",
+		"/M/projects/Haskell/optobit.hs",
+		"/M/projects/Haskell/test.hs",
+		"/M/projects/Haskell/optibit2.hs",
+		"/M/Downloads/Podcasts/philosophize/downloads.txt",
+		"/M/projects/Haskell/    Illegal type signature",
+		"/M/projects/Haskell/haskell.sublime-build",
+		"/M/projects/Haskell/fac.hi",
+		"/M/projects/Haskell/hello.hs",
+		"/M/projects/Haskell/Setup.hs",
+		"/M/projects/Haskell/    In the expression",
+		"/M/projects/Haskell/sublime.sublime-project",
+		"/C/Users/John_2/AppData/Roaming/Sublime Text 3/Packages/SublimeHaskell/Commands/Default.sublime-commands",
+		"/C/Users/John_2/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/John_2/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/John_2/AppData/Roaming/Sublime Text 3/Packages/SublimeHaskell/Keymaps/Default.sublime-keymap",
+		"/C/Users/John_2/AppData/Roaming/Sublime Text 3/Packages/User/Haskell-SublimeHaskell.sublime-settings",
+		"/C/Users/John_2/AppData/Roaming/Sublime Text 3/Packages/SublimeHaskell/Settings/SublimeHaskell.sublime-settings",
+		"/M/projects/Haskell/starter.hs",
+		"/M/projects/Haskell/A.hs",
+		"/M/projects/Haskell/dist/package.conf.inplace",
+		"/M/projects/Haskell/starter.cabal",
+		"/M/projects/Haskell/haskell.sublime-workspace",
+		"/M/projects/python/play.hs",
+		"/M/projects/Haskell/main.py",
+		"/M/projects/test.py",
+		"/M/projects/BradWasHere/wp-content/themes/child_theme/style.css",
+		"/M/projects/BradWasHere/web.config",
+		"/M/projects/BradWasHere/wp-config.php",
+		"/C/Program Files (x86)/PHP/v5.4/php.ini",
+		"/C/Users/John_2/Documents/style.css",
+		"/C/Users/John_2/Documents/New Text Document.txt",
+		"/M/projects/ven-d2/index.html",
+		"/M/projects/ven-d2/screen.js",
+		"/M/projects/ven-d2/canvas_floodfill_v1.0.1.js",
+		"/M/projects/ven-d2/game.js",
+		"/M/projects/ven-d2/vend.js",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/John_2/Documents/hosts",
+		"/M/projects/RunawayRobot/.project",
+		"/M/projects/RunawayRobot/.pydevproject",
+		"/M/projects/RunawayRobot/21.py",
+		"/M/projects/canvas_floodfill_v1.0.1.js",
+		"/C/Users/John_2/AppData/Local/Temp/Rar$DI00.401/README.txt",
+		"/M/projects/Kivy-1.8.0-py2.7-win32/README.txt",
+		"/C/Python27/README.txt",
+		"/C/Python27/LICENSE.txt",
+		"/M/projects/ven-d/game.js",
+		"/M/Downloads/flash/Adobe Flash Pro CS6/INSTALLING INSTRUCTIONS.txt",
+		"/M/projects/ven-d/index.html",
+		"/M/Downloads/flash/Adobe Flash Pro CS6/DLL FILE/IMPORTANT.txt",
+		"/M/Downloads/index.html",
+		"/M/projects/cgminer/windows-build.txt",
+		"/C/MinGW/var/lib/mingw-get/data/profile.xml",
+		"/M/Downloads/q3a/quake iii arena full + multiplayer297/READMEFIRST.txt",
+		"/M/Downloads/q3a/quake iii arena full + multiplayer297/$LaY3R.txt",
+		"/C/MinGW/lib/pkgconfig/libcurl.pc"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"b",
+			"batch",
+			"theResult",
+			"collatzChainLength",
+			"theLookup",
+			"value",
+			"\n",
+			"prime",
+			"flatten",
+			"trace",
+			"traceThis",
+			"orderedFactors",
+			"triangleNumber",
+			"log",
+			";",
+			"\\.",
+			".",
+			"[",
+			"08,02,22,97,38,15,00,40,00,75,04,05,07,78,52,12,50,77,91,08],\n                        [49,49,99,40,17,81,18,57,60,87,17,40,98,43,69,48,04,56,62,00],\n                        [81,49,31,73,55,79,14,29,93,71,40,67,53,88,30,03,49,13,36,65],\n                        [52,70,95,23,04,60,11,42,69,24,68,56,01,32,56,71,37,02,36,91],\n                        [22,31,16,71,51,67,63,89,41,92,36,54,22,40,40,28,66,33,13,80],\n                        [24,47,32,60,99,03,45,02,44,75,33,53,78,36,84,20,35,17,12,50],\n                        [32,98,81,28,64,23,67,10,26,38,40,67,59,54,70,66,18,38,64,70],\n                        [67,26,20,68,02,62,12,20,95,63,94,39,63,08,40,91,66,49,94,21],\n                        [24,55,58,05,66,73,99,26,97,17,78,78,96,83,14,88,34,89,63,72],\n                        [21,36,23,09,75,00,76,44,20,45,35,14,00,61,33,97,34,31,33,95],\n                        [78,17,53,28,22,75,31,67,15,94,03,80,04,62,16,14,09,53,56,92],\n                        [16,39,05,42,96,35,31,47,55,58,88,24,00,17,54,24,36,29,85,57],\n                        [86,56,00,48,35,71,89,07,05,44,44,37,44,60,21,58,51,54,17,58],\n                        [19,80,81,68,05,94,47,69,28,73,92,13,86,52,17,77,04,89,55,40],\n                        [04,52,08,83,97,35,99,16,07,97,57,32,16,26,26,79,33,27,98,66],\n                        [88,36,68,87,57,62,20,72,03,46,33,67,46,55,12,32,63,93,53,69],\n                        [04,42,16,73,38,25,39,11,24,94,72,18,08,46,29,32,40,62,76,36],\n                        [20,69,36,41,72,30,23,88,34,62,99,69,82,67,59,85,74,04,36,16],\n                        [20,73,35,29,78,31,90,01,74,31,49,71,48,86,81,16,23,57,05,54],\n                        [01,70,54,71,83,51,54,69,16,92,33,48,61,43,52,01,89,19,67,48]\n                        ]",
+			"\n",
+			" ",
+			";",
+			"[Char]",
+			"-O",
+			"http",
+			"wget ",
+			"-O",
+			"_",
+			"Outfile",
+			"Invoke-WebRequest ",
+			">",
+			"http",
+			">",
+			"> ",
+			"url=\"[^\"]*\\.mp3\"",
+			"\".*\\.mp3\"",
+			"replaceX",
+			"xor",
+			"and'",
+			"xor",
+			"B",
+			"shr",
+			"\"",
+			"],\n",
+			") ",
+			"x",
+			"replicate",
+			"]\n",
+			"myLength",
+			"mylast",
+			"build",
+			"shell",
+			"build",
+			"run",
+			"build",
+			"entry-hea",
+			"474",
+			"<",
+			",",
+			" ",
+			"\n",
+			"022",
+			",",
+			"tmp",
+			"j",
+			"var",
+			"j",
+			"i",
+			"items",
+			"vend",
+			"Exec",
+			"//",
+			"Exec",
+			"vend",
+			"*",
+			"},\n",
+			"result",
+			"rect",
+			"ctx",
+			"get_AND_segments",
+			"deb",
+			"update",
+			"game",
+			"enable-remote-toggle",
+			"enable-remote-toggle\n#\n",
+			"enable-edit",
+			"edit",
+			"online",
+			".inpu",
+			"GAME",
+			"GAME.Input",
+			"GAME.input",
+			".inpu",
+			"GAME.HEIGHT",
+			"GAME.WIDTH",
+			"GAME.entities",
+			"entit",
+			"tapp",
+			"POP.",
+			"POP.Draw",
+			"POP",
+			"update",
+			"init",
+			"render",
+			"Draw.",
+			".tex"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": true,
+		"replace_history":
+		[
+			",",
+			"SCREEN.Input",
+			"SCREEN.input",
+			"SCREEN.HEIGHT",
+			"SCREEN.WIDTH",
+			"SCREEN.entities",
+			"GAME.",
+			"SCREEN.Draw",
+			"SCREEN"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Euler/14.hs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2451,
+								2451
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haskell/Haskell.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 318.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 346.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.haskell_error_checker":
+	{
+		"height": 221.0
+	},
+	"output.haskell_sublime_load":
+	{
+		"height": 233.0
+	},
+	"project": "sublime.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

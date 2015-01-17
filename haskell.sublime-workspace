@@ -1,0 +1,303 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"color"
+			],
+			[
+				"ci",
+				"circles"
+			],
+			[
+				"state",
+				"stateCmd"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"w",
+				"WIDTH"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"ga",
+				"GAME"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"has",
+				"SublimeHaskell: Check"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ind",
+				"Indent XML"
+			],
+			[
+				"inde",
+				"Indent XML"
+			]
+		],
+		"width": 402.0
+	},
+	"console":
+	{
+		"height": 367.0,
+		"history":
+		[
+			"[a for a in range(10)]",
+			"1==1",
+			"1"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/M/projects/Haskell/A.hs",
+		"/M/projects/Haskell/hello.hs",
+		"/M/projects/test.py",
+		"/M/projects/BradWasHere/wp-content/themes/child_theme/style.css",
+		"/M/projects/BradWasHere/web.config",
+		"/M/projects/BradWasHere/wp-config.php",
+		"/C/Program Files (x86)/PHP/v5.4/php.ini",
+		"/C/Users/John_2/Documents/style.css",
+		"/C/Users/John_2/Documents/New Text Document.txt",
+		"/M/projects/ven-d2/index.html",
+		"/M/projects/ven-d2/screen.js",
+		"/M/projects/ven-d2/canvas_floodfill_v1.0.1.js",
+		"/M/projects/ven-d2/game.js",
+		"/M/projects/ven-d2/vend.js",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/John_2/Documents/hosts",
+		"/M/projects/RunawayRobot/.project",
+		"/M/projects/RunawayRobot/.pydevproject",
+		"/M/projects/RunawayRobot/21.py",
+		"/M/projects/canvas_floodfill_v1.0.1.js",
+		"/C/Users/John_2/AppData/Local/Temp/Rar$DI00.401/README.txt",
+		"/M/projects/Kivy-1.8.0-py2.7-win32/README.txt",
+		"/C/Program Files (x86)/Privoxy/config.txt",
+		"/C/Python27/README.txt",
+		"/C/Python27/LICENSE.txt",
+		"/M/projects/ven-d/game.js",
+		"/M/Downloads/flash/Adobe Flash Pro CS6/INSTALLING INSTRUCTIONS.txt",
+		"/M/projects/ven-d/index.html",
+		"/M/Downloads/flash/Adobe Flash Pro CS6/DLL FILE/IMPORTANT.txt",
+		"/M/Downloads/index.html",
+		"/M/projects/cgminer/windows-build.txt",
+		"/C/MinGW/var/lib/mingw-get/data/profile.xml",
+		"/M/Downloads/q3a/quake iii arena full + multiplayer297/READMEFIRST.txt",
+		"/M/Downloads/q3a/quake iii arena full + multiplayer297/$LaY3R.txt",
+		"/C/MinGW/lib/pkgconfig/libcurl.pc"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"entry-hea",
+			"474",
+			"<",
+			",",
+			" ",
+			"\n",
+			"022",
+			",",
+			"tmp",
+			"j",
+			"var",
+			"j",
+			"i",
+			"items",
+			"vend",
+			"Exec",
+			"//",
+			"Exec",
+			"vend",
+			"*",
+			"},\n",
+			"result",
+			"rect",
+			"ctx",
+			"get_AND_segments",
+			"deb",
+			"update",
+			"game",
+			"enable-remote-toggle",
+			"enable-remote-toggle\n#\n",
+			"enable-edit",
+			"edit",
+			"online",
+			".inpu",
+			"GAME",
+			"GAME.Input",
+			"GAME.input",
+			".inpu",
+			"GAME.HEIGHT",
+			"GAME.WIDTH",
+			"GAME.entities",
+			"entit",
+			"tapp",
+			"POP.",
+			"POP.Draw",
+			"POP",
+			"update",
+			"init",
+			"render",
+			"Draw.",
+			".tex"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"SCREEN.Input",
+			"SCREEN.input",
+			"SCREEN.HEIGHT",
+			"SCREEN.WIDTH",
+			"SCREEN.entities",
+			"GAME.",
+			"SCREEN.Draw",
+			"SCREEN"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 370.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "haskell.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
