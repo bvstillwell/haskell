@@ -35,29 +35,14 @@ collatzChainLengthWithLookup :: (Show k, Integral k, Ord k) => (k, Map.Map k k) 
 collatzChainLengthWithLookup (1, cLMap) = (1,  cLMap)
 collatzChainLengthWithLookup (x, cLMap) =
         if  isNothing lookupCount
-        then
-            let (count, newLookup) = collatzChainLengthWithLookup (collatz x, cLMap)
-            in trace ("Miss " ++ show x) (count +1, Map.insert x (count+1) newLookup)
-        else trace ("Hit " ++ show x) (flop lookupCount, cLMap)
+            then let (count, newLookup) = collatzChainLengthWithLookup (collatz x, cLMap)
+            in (count +1, x `seq` count `seq` Map.insert x (count+1) newLookup)
+        else (flop lookupCount, cLMap)
     where lookupCount = Map.lookup x cLMap
+
+
 
 collatzLengthTable = Map.toList . foldr (\v acc -> snd $! collatzChainLengthWithLookup (v, acc)) Map.empty
 theResult = List.maximumBy (comparing snd) . collatzLengthTable
 
-
--- theResult [0..99999]
--- theResult [100000..199999]
--- theResult [200000..299999]
--- theResult [300000..399999]
--- theResult [400000..499999]
--- theResult [500000..599999]
--- theResult [600000..699999]
--- theResult [700000..799999]
--- theResult [800000..899999]
--- theResult [900000..999999]
-
-runBatch :: (Integral a) => (a, a, a) -> ([a] -> b) -> [b]
-runBatch (start, size, steps) f = map (\step -> let range = [start + (step*size)..start + ((step+1)*size)-1] in f $! range) [0..steps -1]
-
---outOfMemory start batchSize steps = map(\batchNo -> theResult [start + (batchNo*batchSize)+1..(start + (batchNo+1) *batchSize)] ) [0..steps]
---theBatchAnswer = List.maximumBy (comparing snd) . outOfMemory
+--This was updated to add the `seq` commands so that it didn't overflow with memory
