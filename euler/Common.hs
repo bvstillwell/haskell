@@ -6,6 +6,7 @@ module Common (
     ,isPrime
     ,digitise
     ,unDigitise
+    ,primes
     )
 
 where
@@ -42,3 +43,6 @@ triangleNumbers = scanl (+) 1 [2..]
 --Return whether a value is prime or not
 isPrime :: (Integral a) => a -> Bool
 isPrime x = null $ take 1 $ dropWhile (\y -> mod x y > 0 )  (2 : [3,5..wholeSqrt x])
+
+primes :: [Integer]
+primes = filter isPrime [2..]
