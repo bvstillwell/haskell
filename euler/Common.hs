@@ -7,6 +7,7 @@ module Common (
     ,digitise
     ,unDigitise
     ,primes
+    ,pascalRow
     )
 
 where
@@ -48,3 +49,6 @@ isPrime x = null $ take 1 $ dropWhile (\y -> mod x y > 0 )  (2 : [3,5..wholeSqrt
 
 primes :: [Integer]
 primes = filter isPrime [2..]
+
+pascalRow :: Integer -> [Integer]
+pascalRow n = foldl (\a k -> a ++ [ truncate $ fromIntegral (last  a * (n-k)) / fromIntegral (k+1)] ) [1] [0..n-1]
