@@ -9,8 +9,8 @@ module Common (
     ,primes
     ,pascalRow
     )
-
 where
+import Data.List
 
 --Turn a number into a list of digits
 digitise :: (Integral a) => a -> a -> [a]
@@ -35,7 +35,7 @@ wholeSqrt x = floor $ sqrt  (fromIntegral x :: Double) --Sqrt takes a double, so
 --Return the factors of a number
 factors :: (Show a, Integral a) => a -> [a]
 factors 0 = []
-factors x =  1 : flattenCoords [(y, d) | y <- [2..wholeSqrt x], let (d, r) = divMod x y, r==0]
+factors x =  nub $ sort $ 1 : flattenCoords [(y, d) | y <- [2..wholeSqrt x], let (d, r) = divMod x y, r==0]
 
 --Return a list of triangle numbers
 triangleNumbers :: (Integral a) => [a]

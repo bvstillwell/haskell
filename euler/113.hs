@@ -5,7 +5,7 @@ num = digits * 10
 width = 100000
 
 
-pascal = (init.init.tail.pascalRow) digits
+pascal = take 4 $ (init.init.tail.pascalRow) digits
 multiplier = 1:[2,2..]
 distance = [0,1..]
 
