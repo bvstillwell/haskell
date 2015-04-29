@@ -62,19 +62,27 @@ andExprExpr (XS xs) (AS as) = andExprExpr (AS as) (XS xs)
 -- *****************************
 -- XOR
 -- *****************************
+--This might be required when items are removed from a list
+xorMin' :: Expr -> Expr
+xorMin' (XS xs) 
+	| size == 0 = B O
+	| size == 1 = head $ S.elems xs
+	| otherwise = (XS xs)
+	where size = S.size xs
+	
 --Xor 2 bits together
 xorBitBit :: Bit -> Bit -> Expr
 xorBitBit O a = B a
 xorBitBit a O = B a
 xorBitBit a b	
-	| a == b = B O
+	| a == b = B O --Check can't be the same
 	| otherwise = XS (S.fromList [B a, B b]) --Promote to a set
 
 xorBitExpr :: Bit -> Expr -> Expr
 xorBitExpr O b = b --Ignore O
 xorBitExpr b1 (B b2) = xorBitBit b1 b2
 xorBitExpr b (XS xs) 
-	| S.member (B b) xs = XS (S.delete (B b) xs) --Xor remove if already in list
+	| S.member (B b) xs = xorMin' $ XS (S.delete (B b) xs) --Xor remove if already in list
 	| otherwise = XS (S.insert (B b) xs)
 xorBitExpr b (AS as) = XS (S.fromList [(B b), (AS as)])
 
@@ -83,16 +91,13 @@ xorExprExpr (B b1) (B b2) = xorBitBit b1 b2
 xorExprExpr (B b) s = xorBitExpr b s
 xorExprExpr s (B b) = xorBitExpr b s
 --XOR for here is the difference
-xorExprExpr (XS xs1) (XS xs2)
-	| S.null diff = B O
-	| otherwise = XS diff
-	where diff = S.difference xs1 xs2
+xorExprExpr (XS xs1) (XS xs2) = xorMin' $ XS (S.difference xs1 xs2)	
 --Test for equality
 xorExprExpr (AS as1) (AS as2)
 	| as1 == as2 = B O
 	| otherwise = XS (S.fromList [(AS as1), (AS as2)])
 --Add the AS to the XS if it doesn't exist
 xorExprExpr (AS as) (XS xs)
-	| S.member (AS as) xs = XS (S.delete (AS as) xs) --Xor remove if already in list
+	| S.member (AS as) xs = xorMin' $ XS (S.delete (AS as) xs) --Xor remove if already in list
 	| otherwise = XS (S.insert (AS as) xs)
 xorExprExpr (XS xs) (AS as) = xorExprExpr (AS as) (XS xs)
