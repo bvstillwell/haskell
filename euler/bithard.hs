@@ -1,10 +1,40 @@
-import qualified Data.Set as S
+module BitHard (    
+    notExpr,
+    andBitBit,
+    andExprExpr,
+    xorBitBit,
+    Bit(X,O,V),
+    Expr(B,AS,XS),
+    (&&)
+    )
+where
 
-data Bit = X | O | V Int deriving (Eq, Ord, Show)
+import qualified Data.Set as S
+import Data.Boolean
+
+data Bit = X | O | V Int deriving (Eq, Ord)
+
+instance Show Bit where
+  show X = "X"
+  show O = "O"
+  show (V n) = "V"++show n
+
 
 data Expr = B Bit | AS (S.Set Expr) | XS (S.Set Expr)
-	deriving (Eq, Ord, Show)
+	deriving (Eq, Ord)
 
+instance Show Expr where
+  show (B b) = show b
+  show (AS as) = "a" ++ show (S.toList as)
+  show (XS xs) = "x" ++ show (S.toList xs)
+
+(a) = andExprExpr
+(x) = xorExprExpr
+
+createVars :: Int -> Int -> [Expr]
+createVars a b 
+	| a > b = []
+	| otherwise = (B (V a)) : createVars (a+1) b
 
 -- *****************************
 -- NOT
